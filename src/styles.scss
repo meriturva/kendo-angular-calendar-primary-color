@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+// It works
+//$kendo-color-primary: #000;
+
+// Dosent works
+$kendo-color-primary: red;
+
+@import "@progress/kendo-theme-bootstrap/scss/datepicker/_index.scss";
+@import "@progress/kendo-theme-bootstrap/scss/datetimepicker/_index.scss";
